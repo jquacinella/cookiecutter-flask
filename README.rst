@@ -5,9 +5,13 @@ A Flask template for cookiecutter_.
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 
-.. image:: https://travis-ci.org/sloria/cookiecutter-flask.svg
+.. image:: https://travis-ci.org/sloria/cookiecutter-flask.svg?branch=master
     :target: https://travis-ci.org/sloria/cookiecutter-flask
     :alt: Build Status
+
+.. image:: https://img.shields.io/badge/calver-YY.MINOR.MICRO-22bfda.svg
+    :target: http://calver.org
+    :alt: CalVer
 
 
 Use it now
@@ -22,9 +26,10 @@ You will be asked about your basic info (name, project name, app name, etc.). Th
 Features
 --------
 
-- Bootstrap 3 and Font Awesome 4 with starter templates
+- Bootstrap 4 and Font Awesome 4 with starter templates
 - Flask-SQLAlchemy with basic User model
 - Easy database migrations with Flask-Migrate
+- Configuration in environment variables, as per `The Twelve-Factor App <https://12factor.net/config>`_
 - Flask-WTForms with login and registration forms
 - Flask-Login for authentication
 - Flask-Bcrypt for password hashing
@@ -40,10 +45,10 @@ Features
 Screenshots
 -----------
 
-.. image:: https://user-images.githubusercontent.com/2379650/35603073-7f5b78c2-0609-11e8-8fa8-7c6cce27fed6.png
+.. image:: https://user-images.githubusercontent.com/2379650/45271508-917f1c00-b475-11e8-9153-7f7385707a8b.png
     :alt: Home page
 
-.. image:: https://user-images.githubusercontent.com/2379650/35603086-936a30e2-0609-11e8-8f63-a4c844310aab.png
+.. image:: https://user-images.githubusercontent.com/2379650/45271517-a9ef3680-b475-11e8-8de6-fbf3d9cab199.png
     :alt: Registration form
 
 
@@ -67,6 +72,15 @@ BSD licensed.
 
 Changelog
 ---------
+
+18.0.0 (09/09/2018)
+*******************
+
+- Use CalVer (``YY.MINOR.MICRO``).
+- Upgrade to Bootstrap 4. Thanks `@adawalli <https://github.com/adawalli>`_ and `@Hiyorimi <https://github.com/Hiyorimi>`_.
+- Use environment variables for configuration.
+- Add support for Pipenv.
+- Upgrade Python and Node dependencies.
 
 0.13.0 (06/25/2017)
 *******************
